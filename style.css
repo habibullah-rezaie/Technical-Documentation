@@ -8,3 +8,45 @@ body {
     background-color: rgba(20, 20, 20, .5);
     font-size: 100%;
 }
+
+aside {
+    width: 25%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    padding: 1em .35em;
+    padding-left: none;
+}
+
+nav,
+aside h1 {
+    background-color: white;
+    padding: 4px;
+}
+
+aside nav {
+    height: 100vh;
+    padding: 4px 0;
+}
+
+aside h1 {
+    border-bottom: 5px solid gray;
+}
+
+aside a {
+    display: block;
+    margin: 5% 0;
+    border-bottom: 2px solid gray;
+    text-decoration: none;
+    padding: .3em;
+}
+
+aside a:active {
+    color: #551a8b;
+}
+
+aside a:hover {
+    font-style: italic;
+}

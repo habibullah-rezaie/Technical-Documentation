@@ -1,3 +1,7 @@
+:root {
+    --code-background: #f0f0f0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -77,4 +81,9 @@ aside a:hover {
 
 .main-section ul {
     margin-left: 4em;
+}
+
+.main-section code {
+    background-color: #f0f0f0;
+    background-color: var(--code-background);
 }

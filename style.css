@@ -58,3 +58,7 @@ aside a:hover {
     margin-left: 30%;
 }
 
+
+#main-doc .main-section {
+    margin-bottom: 1em; /* Make space between sections*/
+}

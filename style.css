@@ -83,7 +83,10 @@ aside a:hover {
     margin-left: 4em;
 }
 
-.main-section code {
+.main-section .code {
+    font-size: 90%;
     background-color: #f0f0f0;
     background-color: var(--code-background);
+    padding: .5em;
+    margin: .6em;
 }

@@ -16,7 +16,7 @@ aside {
     top: 0;
     left: 0;
     background-color: gray;
-    padding: 0 .35em 0;
+    padding: 0 2px 0 0;
 }
 
 nav,
@@ -27,20 +27,22 @@ aside h1 {
 
 aside nav {
     height: 100vh;
-    padding: 4px 0;
+    width: 100%;
+    padding: inherit 1em;
 }
 
 aside h1 {
     border-bottom: 5px solid gray;
-    padding: .3em inherit;
+    padding: 2px 1em;
 }
 
 aside a {
+    width: 100%;
     display: block;
     margin: 5% 0;
     border-bottom: 2px solid gray;
     text-decoration: none;
-    padding: .3em;
+    padding: .3em 0 .3em 1em;
 }
 
 aside a:active {

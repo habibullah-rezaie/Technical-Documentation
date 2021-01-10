@@ -144,7 +144,7 @@
                     JavaScript
                     code:</p>
                 <div class="code"><code>function greetMe(yourName) { alert("Hello " + yourName); }<br>
-                    greetMe("World");</code></div>
+                        greetMe("World");</code></div>
                 <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
             </article>
         </section>
@@ -192,8 +192,10 @@
                     this variant.
                 </p>
                 <p>With the keyword let. For example, <br>
-                    <div class="code"><code>let y = 13</code></div> <br> This syntax can be used to declare a block scope local variable. See
-                    Variable scope below.</p>
+                    <div class="code"><code>let y = 13</code></div> <br> This syntax can be used to declare a block
+                    scope local variable. See
+                    Variable scope below.
+                </p>
             </article>
         </section>
 
@@ -221,7 +223,8 @@
                 <div class="code"><code>if (true) { var x = 5; } console.log(x); // 5</code></div>
 
                 <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
-                <div class="code"><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code></div>
+                <div class="code"><code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
+                        defined</code></div>
             </article>
         </section>
 
@@ -266,8 +269,8 @@
                 <p>You cannot declare a constant with the same name as a function or variable in the same scope. For
                     example:</p>
                 <div class="code"><code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL<br>
-                    CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements<br>
-                    }</code></div>
+                        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements<br>
+                        }</code></div>
                 <p>However, object attributes are not protected, so the following statement is executed without
                     problems.
                 </p>
@@ -330,16 +333,16 @@
                 <p>You may also compound the statements using else if to have multiple conditions tested in sequence, as
                     follows:</p>
                 <div class="code"><code>if (condition_1) { statement_1; } else if (condition_2) { statement_2;<br>
-                    } else if (condition_n) { statement_n; } else { statement_last; }</code></div>
+                        } else if (condition_n) { statement_n; } else { statement_last; }</code></div>
                 <p>In the case of multiple conditions only the first logical condition which evaluates to true will be
                     executed. To execute multiple statements, group them within a block statement ({ ... }) . In
                     general,
                     it's good practice to always use block
                     statements, especially when nesting if statements:</p>
                 <div class="code"><code>if (condition) { statement_1_runs_if_condition_is_true;<br>
-                    statement_2_runs_if_condition_is_true; } else {<br>
-                    statement_3_runs_if_condition_is_false;<br>
-                    statement_4_runs_if_condition_is_false; }</code></div>
+                        statement_2_runs_if_condition_is_true; } else {<br>
+                        statement_3_runs_if_condition_is_false;<br>
+                        statement_4_runs_if_condition_is_false; }</code></div>
                 <p>It is advisable to not use simple assignments in a conditional expression, because the assignment can
                     be
                     confused with equality when glancing over the code. For example, do not use the following code:</p>
@@ -372,21 +375,22 @@
                 <p>To execute multiple statements, use a block statement ({ ... }) to group those statements.</p>
                 <p>Example:</p>
                 <p>The following while loop iterates as long as n is less than three:</p>
-                <div class="code"><code>var n = 0; var x = 0; while (n < 3) { n++; x +=n; }</code></div> <p>With each iteration, the loop
-                        increments
-                        n and adds that value to x. Therefore, x and n take on the following values:</p>
+                <div class="code"><code>var n = 0; var x = 0; while (n < 3) { n++; x +=n; }</code> </div> <p>With each
+                            iteration, the loop
+                            increments
+                            n and adds that value to x. Therefore, x and n take on the following values:</p>
 
-                        <ul>
-                            <li>
-                                After the first pass: n = 1 and x = 1
-                            </li>
-                            <li>
-                                After the second pass: n = 2 and x = 3
-                            </li>
-                            <li>
-                                After the third pass: n = 3 and x = 6
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>
+                                    After the first pass: n = 1 and x = 1
+                                </li>
+                                <li>
+                                    After the second pass: n = 2 and x = 3
+                                </li>
+                                <li>
+                                    After the third pass: n = 3 and x = 6
+                                </li>
+                            </ul>
             </article>
         </section>
 

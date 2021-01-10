@@ -1,5 +1,6 @@
 :root {
     --code-background: #f0f0f0;
+    --regular-font-color: gray;
 }
 
 * {
@@ -11,6 +12,11 @@
 body {
     background-color: white;
     font-size: 100%;
+}
+
+a,
+article {
+    color: var(--regular-font-color);
 }
 
 aside {
@@ -50,7 +56,7 @@ aside a {
 }
 
 aside a:active {
-    color: #551a8b;
+    color: var(--regular-font-color);
 }
 
 aside a:hover {

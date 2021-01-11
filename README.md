@@ -10,4 +10,7 @@ A Tiny JavaScript Documentation for beginners in the langauge
 
 ## Get Started
 - clone the project
+```sh
+    git clone https://github.com/habibullah-rezaie/Technical-Documentation.git
+```
 - open 'index.html' in a browser

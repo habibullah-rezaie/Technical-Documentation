@@ -2,7 +2,12 @@
 
 A Tiny JavaScript Documentation for beginners in the langauge
 ## Screenshot
+
 ![Technical-Documentation](demo.png)
+## Live Demo
+[go live](https://habibullah-rezaie.github.io/Technical-Documentation)
+
+
 ## Built With
 
 - HTML5

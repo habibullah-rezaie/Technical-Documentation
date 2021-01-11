@@ -50,7 +50,7 @@ aside h1 {
 aside a {
     width: 100%;
     display: block;
-    margin: 4% 0;
+    margin: 4.2% 0;
     border-bottom: 2px solid gray;
     text-decoration: none;
     padding: .3em 0 .3em 1em;
@@ -63,6 +63,10 @@ aside a {
 
 aside a:active {
     color: var(--regular-font-color);
+}
+
+a:last-child {
+    border-bottom: none;
 }
 
 aside a:hover {

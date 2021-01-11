@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: white;
     font-size: 100%;
@@ -63,14 +67,16 @@ aside a:hover {
     font-style: italic;
 }
 
+
 /* Style Main */
+
 #main-doc {
     margin: 1em 1em auto 30%;
 }
 
-
 #main-doc .main-section {
-    margin-bottom: 1em; /* Make space between sections*/
+    margin-bottom: 1em;
+    /* Make space between sections*/
 }
 
 .main-section header {

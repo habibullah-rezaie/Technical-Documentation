@@ -54,6 +54,11 @@ aside a {
     border-bottom: 2px solid gray;
     text-decoration: none;
     padding: .3em 0 .3em 1em;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 aside a:active {
@@ -61,7 +66,8 @@ aside a:active {
 }
 
 aside a:hover {
-    font-style: italic;
+    color: #333;
+    font-weight: 700;
 }
 
 
